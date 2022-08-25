@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gugi&subset=korean">
+    <title>Korean Text</title>
+
+    <style>
+        .block{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            border: 2px solid black;
+            position: relative;
+            background-color: black;
+        }
+        .grid{
+            display: grid;
+            text-align: center;
+        }
+        
+        .koreanText{
+            color: #fff;
+            font-size: 6vw;
+            font-weight: 300;
+            font-family: 'Garamond';
+            text-shadow:
+                0 0 20px #fff,
+                0 0 30px #fff,
+                0 0 40px #fff,
+                0 0 50px #5271ff,
+                0 0 60px #5271ff,
+                0 0 70px #5271ff,
+                0 0 80px #5271ff,
+                0 0 100px #5271ff;
+        }
+
+        .englishText, .transText{
+            color: #fff;
+            font-size: 3vw;
+            font-weight: 300;
+            font-family: 'Calibri';
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <div class="grid">
+            <h1 class="englishText">goodbye</h1>
+            <h1 class="koreanText">안녕히 계세요</h1>
+            <h1 class="transText">annyeonghi gyeseyo</h1>
+        </div>
+        
+    </div>
+</body>
+</html>
